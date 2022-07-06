@@ -1,0 +1,39 @@
+
+* {
+   padding: 0%;
+   margin: 0%;
+}
+
+@import "./base/fonts";
+@import "./base/variables";
+
+.body {
+   font-family: $main-font;
+   background-color: rgb(27, 27, 27) ;
+}
+
+/*Header y Footer*/
+@import "./components-index/header";
+@import "./components-index/footer";
+
+/*Index*/
+@import "./components-index/section1-index";
+@import "./components-index/section2-index";
+@import "./components-index/noticias-index";
+   /*Media Quearis index*/
+   @import "./components-index/quearis";
+
+/*Pages*/
+@import "./components-pages/section1";
+@import "./components-pages/section2";
+@import "./components-pages/completos";
+@import "./components-pages/peliculas";
+@import "./components-pages/contacto";
+   /*Media Quearis index*/
+   @import "./components-pages/quearis";
+
+
+
+
+
+ 

@@ -1,0 +1,359 @@
+/*Quearis Laptop*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+.destacados {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    }
+           
+.destacados__novedades {
+    width: 90%;
+    margin: 0 36px 20px 36px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;}
+               
+.destacados-img1 { grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+    padding: 10px;}
+.destacados-img2 { grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    justify-content: center;}
+.destacados-img3 { grid-area: 1 / 3 / 2 / 4; 
+    display: flex;
+    justify-content: center;}
+.destacados-img4 { grid-area: 2 / 1 / 3 / 2; 
+    display: flex;
+    justify-content: center;}
+.destacados-img5 { grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;}
+.destacados-img6 { grid-area: 2 / 3 / 3 / 4; 
+    display: flex;
+    justify-content: center;}
+.destacados__novedades img {
+    height: auto;
+    max-width: 20vw;
+    }
+       
+.destacados__novedades__h2 {
+    display: flex;
+    margin: 20px 0 10px 45px;
+    padding: 5px;
+    width: 47%;
+    font-size: 2vw;
+    }
+.section2-main {    
+    width: 90%;
+    }
+   
+.section2-main__titulo {
+    width: 45%;
+    margin-left: 10px;
+    }
+           
+.section2-main__img {
+    width: 20vw;
+    height: auto;
+    }
+   
+.mas-vistos {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    }
+   
+.proximos-estrenos{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+   }
+   
+.estrenos img {
+    width: 60vw;
+    margin-bottom: 30px;
+   }
+   
+.fondo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+.form {
+    max-width: 70vw;
+    height: auto;
+    margin: 0;
+    }
+   }
+/* Fin Queries Laptop*/
+   
+   
+/* Queries Tablet*/
+   
+@media (min-width: 481px) and (max-width: 768px) {
+   
+   
+.destacados {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    }
+       
+.destacados__novedades {
+   width: 90%;
+   margin: 0 35px 20px 28px;
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-template-rows: repeat(2, auto);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;}
+           
+.destacados-img1 { grid-area: 1 / 1 / 2 / 2;
+   display: flex;
+   justify-content: center;
+   padding: 10px;}
+.destacados-img2 { grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+   justify-content: center;}
+.destacados-img3 { grid-area: 1 / 3 / 2 / 4; 
+   display: flex;
+   justify-content: center;}
+.destacados-img4 { grid-area: 2 / 1 / 3 / 2; 
+   display: flex;
+   justify-content: center;}
+.destacados-img5 { grid-area: 2 / 2 / 3 / 3; 
+   display: flex;
+   justify-content: center;}
+.destacados-img6 { grid-area: 2 / 3 / 3 / 4; 
+   display: flex;
+   justify-content: center;}
+   
+.destacados__novedades img {
+   height: auto;
+   max-width: 25vw;
+   }
+   
+.destacados__novedades__h2 {
+   display: flex;
+   margin: 20px 0 10px 4.6vw;
+   padding: 5px;
+   width: 45%;
+   }
+   
+.section2-main {
+    width: 90%;
+    }
+   
+.section2-main__titulo {
+    font-size: 15px;
+    margin: 2vw 0 0 1vw;
+    }
+           
+.section2-main__img {
+    width: 20vw;
+    height: auto;   
+    padding: 10px 0 10px 0px;
+    }
+   
+.mas-vistos {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    }
+   
+.proximos-estrenos{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    }
+.proximos-estrenos .destacados__novedades__h2 {
+    width: 60%;
+   } 
+   
+.estrenos img {
+    width: 60vw;
+    margin-bottom: 30px;
+    }
+   
+.fondo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+       
+.form {
+     width: 72vw;
+    height: auto;
+    margin: 0;
+        }
+   
+.form__label {
+ width: 15vw;
+ margin: 0 5px 0 5px;
+   }
+   
+.form__email {
+    width: 22vw;
+    margin: 0 0 0 5px;
+   }
+   .form__mensaje {
+       width: 69.2vw;
+       }
+   
+   .form__enviar {
+       display: flex;
+       width: 9vw;
+       margin:0 0 0 62vw;
+       }
+   
+   
+   
+   }
+   
+   /* Fin Queries tablet*/
+   
+   
+   /* Queries Mobile*/
+   
+   
+   @media (min-width: 320px) and (max-width: 480px) {
+   
+   
+   .destacados {
+       max-width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: space-between;
+       padding: 0;
+           }
+           
+   .destacados__novedades {
+       margin: 0 35px 20px 15px;
+       display: grid;
+       grid-template-columns: repeat(3, auto);
+       grid-template-rows: repeat(2, auto);
+       grid-column-gap: 0px;
+       grid-row-gap: 0px;}
+   
+   .destacados-img1 { grid-area: 1 / 1 / 2 / 2;
+       display: flex;
+       justify-content: center;
+       padding: 10px;}
+   .destacados-img2 { grid-area: 1 / 2 / 2 / 3; 
+       display: flex;
+       justify-content: center;}
+   .destacados-img3 { grid-area: 1 / 3 / 2 / 4; 
+       display: flex;
+       justify-content: center;}
+   .destacados-img4 { grid-area: 2 / 1 / 3 / 2; 
+       display: flex;
+       justify-content: center;}
+   .destacados-img5 { grid-area: 2 / 2 / 3 / 3; 
+       display: flex;
+       justify-content: center;}
+   .destacados-img6 { grid-area: 2 / 3 / 3 / 4; 
+       display: flex;
+       justify-content: center;}
+           
+   .destacados__novedades img {
+       height: auto;
+       max-width: 25vw;
+       }
+           
+   .destacados__novedades__h2 {
+       display: flex;
+       margin: 20px 0 10px 6.2vw;
+       padding: 5px;
+       width: 86%;
+       }
+       
+   .section2-main {
+     width: 90%;
+     margin: 10px 0 0 0;
+       }
+       
+   .section2-main__titulo {
+       font-size: 15px;
+       margin: 2vw 0 0 1vw;
+        }
+               
+   .section2-main__img {
+       width: 17vw;
+       height: auto;   
+       padding: 10px 0 10px 0px;
+        }
+   
+   .mas-vistos {
+           max-width: 100%;
+           height: auto;
+           display: flex;
+           justify-content: space-between;
+           padding: 0;
+              }
+        
+   .proximos-estrenos{
+       max-width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: space-between;
+       padding: 0;
+       }
+       
+   .estrenos img {
+       width: 80vw;
+       margin-bottom: 30px;
+       }
+       
+   .fondo-contacto {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: auto
+        }
+           
+   .form {
+       width: 80%;
+       height: auto;
+       margin: 20px 0 20px 0;
+       }
+       
+   .form__label {
+       width: 15vw;
+        margin: 0 5px 0 5px;
+       }
+   .form__email {
+       width: 20vw;
+       margin: 0 0 0 5px;
+       }
+   .form__mensaje {
+       width: 75vw;
+       }
+       
+   .form__enviar {
+       display: flex;
+       width: 15vw;
+       margin:0 0 0 63vw;
+       display: flex;
+       justify-content: center;
+       }
+   }
+   
+   /*Fin Queries Mobile*/

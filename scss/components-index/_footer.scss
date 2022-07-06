@@ -1,0 +1,44 @@
+
+
+
+.section-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+width: 80%;
+height: auto;
+border: $border-sections;
+/*background-color: rgb(1, 28, 36);*/
+background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
+margin: 3vw 0 3vw 0;
+padding: 20px;
+}
+
+.footer__nav ul  {
+    list-style-type: none;
+}
+
+.visitanos {
+    padding: 5px;
+    color: $color-fuente;
+    border: $border-titulos;
+    margin-bottom: 10px;
+    font-size: 170%;
+    list-style-type: none;
+}
+
+.visitanos__img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+/* fin footer*/
+
+/*Transform*/
+.visitanos:hover {
+    transform: scale(1.0);
+}

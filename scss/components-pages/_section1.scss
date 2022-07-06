@@ -1,0 +1,55 @@
+/*sections li a*/
+
+
+/*Section 1/*/
+.destacados {
+    max-width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
+    max-width: 100%;
+    padding: 0 50px;  
+}
+
+.destacados__novedades {
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    margin-top: 50px;
+}
+
+.destacados__novedades img {
+    height: auto;
+    max-width: 12vw;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+.destacados__novedades__h2 {
+    border: $border-titulos;
+    background-color: $background-sections;
+    padding: 8px 40px 8px 8px;
+    width: 30.3%;
+    color: $color-fuente;
+    font-family:'Orbitron', sans-serif;   
+}
+
+ h2 {
+    font-weight: 400;
+    display: flex;
+    font-size: 5%;
+    margin: 0%;
+}   
+/*Fin Section 1*/
+
+/*Transform*/
+.destacados__novedades__h2:hover {
+    transform: scale(1.02);
+}
+
+.destacados__novedades img:hover {
+    transform: scale(1.05);
+
+}

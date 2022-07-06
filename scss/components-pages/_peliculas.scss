@@ -1,0 +1,25 @@
+/*Peliculas*/
+
+.proximos-estrenos {
+    background-image: url(../multimedia/FondosSections/FONDO-AZUL.jpg);
+    max-width: 100%;
+    height: 65vh /*36.5rem*/;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;  
+ }
+
+ .estrenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.estrenos img {
+   width: 35vw;
+   height: auto;
+}
+ 
+/* Fin Peliculas*/
